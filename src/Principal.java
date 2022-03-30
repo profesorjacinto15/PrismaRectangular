@@ -2,6 +2,12 @@ import java.util.Scanner;
 
 public class Principal {
 
+    /**
+     * Método para leer un float
+     * @param mensaje a mostrar
+     * @return valor
+     */
+
     public static float leerfloat(String mensaje) {
         Scanner tec = new Scanner(System.in);
         System.out.print(mensaje);
